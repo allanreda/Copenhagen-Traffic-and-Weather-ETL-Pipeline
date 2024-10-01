@@ -1,7 +1,7 @@
-# Copenhagen Traffic and Weather Data ETL Pipeline
+![image](https://github.com/user-attachments/assets/3d6b2f76-de51-4d07-aeb3-947a6c7b4b10)# Copenhagen Traffic and Weather Data ETL Pipeline
 Try the dashboard out live at: https://lookerstudio.google.com/reporting/f3e0f840-5cb6-413d-92c9-f911df595063  
 
-![image](https://github.com/user-attachments/assets/caed8218-43e6-4947-9783-5adf4cc573dc)
+![image](https://github.com/user-attachments/assets/af48ad15-a20a-4549-bf01-6709252c5df4)
 
 ## Introduction
 Initially, I wanted to gather traffic and weather data for the city of Copenhagen, to see if I could create an ML-model that could predict the traffic partially based on weather conditions. I quickly realized that there was nowhere I could get that historical data to train my models - at least not for free. Since this project was only meant as a hobby project, I had no intention of paying for any API subscriptions to get the data I needed. In my search, I found out that the TomTom and OpenWeather APIs offered free options, but only for fetching current traffic and weather conditions, and not historical. That's when I decided to build an ETL pipeline to generate my own datasets over time, and create a dashboard (because why not?) to visualize real-time data - which is a full project in itself. That is the project you're going to read about here.
@@ -28,7 +28,7 @@ The secondary goal of this project is to create a dashboard that visualizes the 
 - [Technologies](#technologies)
 
 ## Project Diagram
-![copenhagen_data drawio (1)](https://github.com/user-attachments/assets/fbe4a2bb-d999-463c-8e9b-55e1f090b9cf)
+![copenhagen_data drawio (1)](https://github.com/user-attachments/assets/16fd00aa-1b7c-47d2-bda4-67bc2a6426ec)
 
 ## Cloud Run Function
 
